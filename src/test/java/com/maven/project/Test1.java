@@ -26,8 +26,7 @@ public class Test1 {
 		@AfterMethod
 		public void exit()
 		{
-			driver.close();
-			//driver.quit();
+			driver.quit();
 		}
 
 	}
