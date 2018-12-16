@@ -51,6 +51,7 @@ public class DataDrivenTest {
 			driver.findElement(By.xpath("//*[@id=\"eid\"]/input")).clear();
 			driver.findElement(By.xpath("//*[@id=\"eid\"]/input")).sendKeys(Emailaddress);
 			reader.setCellData("RegTestData","Status",rownum,"Pass");
+			//pulled the code
 		}	
 	}	
 }
