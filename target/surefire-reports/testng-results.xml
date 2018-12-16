@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-12-11T04:11:52Z" name="Surefire suite" finished-at="2018-12-11T04:13:08Z" duration-ms="76708">
+    <groups>
+    </groups>
+    <test started-at="2018-12-11T04:11:52Z" name="Surefire test" finished-at="2018-12-11T04:13:08Z" duration-ms="76708">
+      <class name="com.maven.project.SumTest">
+        <test-method signature="diff()[pri:0, instance:com.maven.project.SumTest@4fb61f4a]" started-at="2018-12-11T09:41:52Z" name="diff" finished-at="2018-12-11T09:41:52Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- diff -->
+        <test-method signature="mul()[pri:0, instance:com.maven.project.SumTest@4fb61f4a]" started-at="2018-12-11T09:41:52Z" name="mul" finished-at="2018-12-11T09:41:52Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method signature="sum()[pri:0, instance:com.maven.project.SumTest@4fb61f4a]" started-at="2018-12-11T09:41:52Z" name="sum" finished-at="2018-12-11T09:41:52Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.maven.project.SumTest -->
+      <class name="com.maven.project.Test1$FirstTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.maven.project.Test1$FirstTest@6572421]" started-at="2018-12-11T09:41:52Z" name="setUp" finished-at="2018-12-11T09:43:04Z" duration-ms="72290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="home()[pri:0, instance:com.maven.project.Test1$FirstTest@6572421]" started-at="2018-12-11T09:43:04Z" name="home" finished-at="2018-12-11T09:43:06Z" duration-ms="1768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:com.maven.project.Test1$FirstTest@6572421]" started-at="2018-12-11T09:43:06Z" name="exit" finished-at="2018-12-11T09:43:08Z" duration-ms="2583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.maven.project.Test1$FirstTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

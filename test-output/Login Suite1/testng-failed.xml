@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login Suite1]">
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="url" value="https://login.yahoo.com/"/>
+  <parameter name="email" value="testtt@yahoo.com"/>
+  <test name="Login Test(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="url" value="https://login.yahoo.com/"/>
+    <parameter name="email" value="testtt@yahoo.com"/>
+    <classes>
+      <class name="com.parameters.test.LoginTest">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.parameters.test.LoginTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [Login Suite1] -->

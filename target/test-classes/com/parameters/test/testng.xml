@@ -1,0 +1,10 @@
+<suite name="Login Suite1">
+  <test name="Login Test" >
+  	<parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://login.yahoo.com/"/>
+    <parameter name="email" value="testtt@yahoo.com"/>
+  <classes>
+  		<class name="com.parameters.test.LoginTest"/>
+  </classes>
+  </test>
+</suite>
